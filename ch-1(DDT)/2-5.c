@@ -1,4 +1,4 @@
-
+/*
 #include<stdio.h>
 
 int main()
@@ -22,4 +22,19 @@ int main()
 	printf("[%08.3f]\n", b);
 	printf("[%+08.3fc]\n", b);
 
+}*/
+
+
+
+#include <stdio.h>
+int main(void)
+{
+
+	int h = 1234;
+
+	printf( "%-10d", h);
+
+	return 0;
+
 }
+
